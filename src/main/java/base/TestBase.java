@@ -56,6 +56,7 @@ public class TestBase {
 		{
 			testbase = new TestBase();
 		}
+		
 	}
 	public static void tearDown()
 	{
@@ -64,12 +65,20 @@ public class TestBase {
 			driver.close();
 			driver.quit();
 		}
-		testbase = null;
+	testbase = null;
+	try {
+		Thread.sleep(5000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	}
 	
 	public static void openPage(String url)
 	{
 		driver.get(url);
 	}
+
+	
 	
 }

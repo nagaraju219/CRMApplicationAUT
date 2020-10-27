@@ -8,16 +8,18 @@ import base.TestBase;
 import locators.LoginPageLocators;
 
 public class LoginPage {
-	WebDriver driver = TestBase.getDriver();
+	private WebDriver driver = TestBase.getDriver();
 	LoginPageLocators loginPageLocators = new LoginPageLocators();
 	
 	public LoginPage()
 	{
 		PageFactory.initElements(driver,loginPageLocators);
+		
 	}
 	public void clickOnUsername(String userName)
 	{
 		loginPageLocators.emailField.sendKeys(userName);
+		
 	}
 	public void clickonPassword(String passWord)
 	{
@@ -28,5 +30,16 @@ public class LoginPage {
 	{
 		loginPageLocators.loginButton.click();
 	}
+	
+	public void clickonForgetPasswordLink()
+	{
+		loginPageLocators.ForgetPasswordLink.click();
+		
+	}
+	public WebDriver LoginPageDriver()
+	{
+		return driver;
+	}
+	
 
 }
