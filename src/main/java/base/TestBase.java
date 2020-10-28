@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.SessionId;
 
 import util.TestUtil;
 public class TestBase {
@@ -16,6 +18,7 @@ public class TestBase {
 	public static Properties prop;
 	static FileInputStream fis = null;
 	static String UserDir = System.getProperty("user.dir");
+	
 	public TestBase()
 	{
 		prop = new Properties();
@@ -37,6 +40,8 @@ public class TestBase {
 		{
 			System.setProperty("webdriver.chrome.driver",UserDir+ "\\src\\main\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
+			SessionId sessionid = ((RemoteWebDriver) driver).getSessionId();
+			System.out.println("SessionID"+sessionid);
 			
 		}
 		driver.manage().deleteAllCookies();
@@ -52,10 +57,9 @@ public class TestBase {
 	}
 	public static void setDriver()
 	{
-		if(driver==null)
-		{
+			
 			testbase = new TestBase();
-		}
+	
 		
 	}
 	public static void tearDown()
@@ -74,10 +78,12 @@ public class TestBase {
 	}
 	}
 	
-	public static void openPage(String url)
+	public static void openPage(WebDriver driver1,String url)
 	{
-		driver.get(url);
+		driver1.get(url);
 	}
+
+	
 
 	
 	

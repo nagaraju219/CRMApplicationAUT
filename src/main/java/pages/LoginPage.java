@@ -36,10 +36,5 @@ public class LoginPage {
 		loginPageLocators.ForgetPasswordLink.click();
 		
 	}
-	public WebDriver LoginPageDriver()
-	{
-		return driver;
-	}
 	
-
 }

@@ -3,6 +3,7 @@ package stepDefinations;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.SessionId;
 
 import base.TestBase;
 import io.cucumber.java.en.Given;
@@ -11,11 +12,12 @@ import io.cucumber.java.en.When;
 import pages.LoginPage;
 public class LoginPageTest  {
 	LoginPage loginPage = new LoginPage();
-	
+	WebDriver driver;
 	@Given("^user login in to the \"([^\"]*)\" website$")
     public void user_login_in_to_the_something_website(String webSite) {
-	
-		TestBase.openPage(webSite);
+		driver = TestBase.getDriver();
+		System.out.println("Iam in the WebSite Page");
+		TestBase.openPage(driver,webSite);
 		System.out.println("In LoginUser Method");
 		
     }
