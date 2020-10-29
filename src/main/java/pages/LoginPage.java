@@ -16,9 +16,9 @@ public class LoginPage {
 		PageFactory.initElements(driver,loginPageLocators);
 		
 	}
-	public void clickOnUsername(String userName)
+	public void clickOnUsername(String username)
 	{
-		loginPageLocators.emailField.sendKeys(userName);
+		loginPageLocators.emailField.sendKeys(username);
 		
 	}
 	public void clickonPassword(String passWord)

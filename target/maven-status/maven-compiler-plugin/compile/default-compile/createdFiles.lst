@@ -1,0 +1,6 @@
+base\TestBase.class
+locators\LoginPageLocators.class
+pages\LoginPage.class
+pages\HomePage.class
+locators\HomePageLocators.class
+util\TestUtil.class

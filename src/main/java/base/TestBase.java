@@ -18,6 +18,7 @@ public class TestBase {
 	public static Properties prop;
 	static FileInputStream fis = null;
 	static String UserDir = System.getProperty("user.dir");
+	public static String url;
 	
 	public TestBase()
 	{
@@ -78,13 +79,12 @@ public class TestBase {
 	}
 	}
 	
-	public static void openPage(WebDriver driver1,String url)
+	public static void openPage()
 	{
-		driver1.get(url);
+		String url = prop.getProperty("url");
+		driver.get(url);
+		System.out.println(url);
 	}
-
-	
-
 	
 	
 }

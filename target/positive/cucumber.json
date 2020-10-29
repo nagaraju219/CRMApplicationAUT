@@ -1,0 +1,354 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-29T09:59:49.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5689723337,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify whether User able to click on Contacts page link",
+        "description": "",
+        "id": "home-page-functionality-test-of-free-crm-website;verify-whether-user-able-to-click-on-contacts-page-link",
+        "after": [
+          {
+            "result": {
+              "duration": 5865264570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7776502485,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user login in to the CRM website",
+            "match": {
+              "location": "HomePageTest.user_login_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5549239854,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" as Password as \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 70
+                }
+              ],
+              "location": "HomePageTest.user_enter_the_username_as_something_as_password_as_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3232368592,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to enter HomePage and user should click on ContactsPage Link",
+            "match": {
+              "location": "HomePageTest.user_should_be_able_to_enter_homepage_and_user_should_click_on_contactspage_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3375098,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should land on ContactsPage",
+            "match": {
+              "location": "HomePageTest.user_should_land_on_contactspage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-29T10:00:17.279Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4219399445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify whether User able to click on Tasks page link",
+        "description": "",
+        "id": "home-page-functionality-test-of-free-crm-website;verify-whether-user-able-to-click-on-tasks-page-link",
+        "after": [
+          {
+            "result": {
+              "duration": 6178307081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8052304374,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user login in to the CRM website",
+            "match": {
+              "location": "HomePageTest.user_login_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5517466061,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" as Password as \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 70
+                }
+              ],
+              "location": "HomePageTest.user_enter_the_username_as_something_as_password_as_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196400251,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to enter HomePage and user should click on Tasks Link",
+            "match": {
+              "location": "HomePageTest.user_should_be_able_to_enter_homepage_and_user_should_click_on_tasks_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1193867,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on TasksPage",
+            "match": {
+              "location": "HomePageTest.user_should_land_on_taskspage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page Functionality test of FREE CRM Website",
+    "description": "",
+    "id": "home-page-functionality-test-of-free-crm-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-29T10:00:41.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4452177350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify whether User able to login with Valid UserName and Password",
+        "description": "",
+        "id": "login-page-functionality-test-of-free-crm-website;verify-whether-user-able-to-login-with-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 6165492710,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10241991788,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login in to the CRM  website",
+            "match": {
+              "location": "LoginPageTest.user_login_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5532050706,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" and Password as \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 71
+                }
+              ],
+              "location": "LoginPageTest.user_enter_the_username_as_something_and_password_as_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2349144,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to enter HomePage",
+            "match": {
+              "location": "LoginPageTest.user_should_be_able_to_enter_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-29T10:01:07.866Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4670927723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify whether User able to click Forget Password Link",
+        "description": "",
+        "id": "login-page-functionality-test-of-free-crm-website;verify-whether-user-able-to-click-forget-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 5825688762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7863088266,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user login in to the CRM  website",
+            "match": {
+              "location": "LoginPageTest.user_login_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4373283558,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on ForgetPasswork Link",
+            "match": {
+              "location": "LoginPageTest.user_click_on_forgetpasswork_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722151,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to Navigate to passwordreset",
+            "match": {
+              "location": "LoginPageTest.user_should_be_able_to_navigate_to_passwordreset()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page Functionality test of FREE CRM Website",
+    "description": "",
+    "id": "login-page-functionality-test-of-free-crm-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginPage.feature",
+    "tags": []
+  }
+]
