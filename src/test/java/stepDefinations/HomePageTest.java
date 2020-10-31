@@ -1,12 +1,13 @@
-package stepDefinations;
+package stepdefinations;
 
-import base.TestBase;
+import com.crm.base.TestBase;
+import com.crm.pages.HomePage;
+import com.crm.pages.LoginPage;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.HomePage;
-import pages.LoginPage;
 
 public class HomePageTest {
 	LoginPage loginPage = new LoginPage();

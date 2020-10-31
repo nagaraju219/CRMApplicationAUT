@@ -3,11 +3,419 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-29T09:59:49.135Z",
+        "start_timestamp": "2020-10-31T12:15:47.353Z",
         "before": [
           {
             "result": {
-              "duration": 5689723337,
+              "duration": 6719410003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify whether user able to delete the selected Contacts",
+        "description": "",
+        "id": "verify-the-functionality-of-contacts-page;verify-whether-user-able-to-delete-the-selected-contacts",
+        "after": [
+          {
+            "result": {
+              "duration": 6679251588,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5433576312,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logged in to the CRM website",
+            "match": {
+              "location": "ContactsPageTest.user_logged_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3508954060,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" as Password as \"India@123\" in Logginpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 70
+                }
+              ],
+              "location": "ContactsPageTest.user_enter_the_username_as_something_as_password_as_something_in_logginpage(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3232287495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to enter HomePage and user should click on ContactsPage",
+            "match": {
+              "location": "ContactsPageTest.user_should_be_able_to_enter_homepage_and_user_should_click_on_contactspage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3225583137,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on selectall contacts radiobutton",
+            "match": {
+              "location": "ContactsPageTest.user_clicks_on_selectall_contacts_radiobutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174616709,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on dropdown",
+            "match": {
+              "location": "ContactsPageTest.user_clicks_on_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393643688,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Contacts on firstpage should be deleted",
+            "match": {
+              "location": "ContactsPageTest.contacts_on_firstpage_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-31T12:16:16.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4601454588,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the Functionality of Adding new contact",
+        "description": "",
+        "id": "verify-the-functionality-of-contacts-page;verify-the-functionality-of-adding-new-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 5923283104,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5398588517,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user logged in to the CRM website",
+            "match": {
+              "location": "ContactsPageTest.user_logged_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3455278138,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" as Password as \"India@123\" in Logginpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 70
+                }
+              ],
+              "location": "ContactsPageTest.user_enter_the_username_as_something_as_password_as_something_in_logginpage(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3211851743,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should be able to enter HomePage and user should click on ContactsPage",
+            "match": {
+              "location": "ContactsPageTest.user_should_be_able_to_enter_homepage_and_user_should_click_on_contactspage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543541,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User lands on ContactsPage",
+            "match": {
+              "location": "ContactsPageTest.user_lands_on_contactspage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376618615,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the New Contact button",
+            "match": {
+              "location": "ContactsPageTest.user_clicks_on_the_new_contact_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2550225832,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enters the FirstName LastName and EmailID and Clicks on Save",
+            "match": {
+              "location": "ContactsPageTest.enters_the_firstname_lastname_and_emailid_and_clicks_on_save(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "LastName",
+                  "EmailID"
+                ]
+              },
+              {
+                "cells": [
+                  "Nagaraju",
+                  "Madupu",
+                  "nagarajumadupu@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167957,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Contact should be created",
+            "match": {
+              "location": "ContactsPageTest.contact_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-31T12:16:42.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4782825330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify the Contacts filter by LastName",
+        "description": "",
+        "id": "verify-the-functionality-of-contacts-page;verify-the-contacts-filter-by-lastname",
+        "after": [
+          {
+            "result": {
+              "duration": 5949446975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5628535994,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user logged in to the CRM website",
+            "match": {
+              "location": "ContactsPageTest.user_logged_in_to_the_crm_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3477216018,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the Username as \"nagarajumadupu@gmail.com\" as Password as \"India@123\" in Logginpage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nagarajumadupu@gmail.com",
+                  "offset": 28
+                },
+                {
+                  "val": "India@123",
+                  "offset": 70
+                }
+              ],
+              "location": "ContactsPageTest.user_enter_the_username_as_something_as_password_as_something_in_logginpage(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3208137271,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should be able to enter HomePage and user should click on ContactsPage",
+            "match": {
+              "location": "ContactsPageTest.user_should_be_able_to_enter_homepage_and_user_should_click_on_contactspage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534400737,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on Search Filter with LastName",
+            "match": {
+              "location": "ContactsPageTest.click_on_search_filter_with_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3334920304,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "selects the filter with StartsWith",
+            "match": {
+              "location": "ContactsPageTest.selects_the_filter_with_startswith()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389372128,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Search Keyword as \"Madupu\" and clicks on Search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madupu",
+                  "offset": 29
+                }
+              ],
+              "location": "ContactsPageTest.enter_the_search_keyword_as_something_and_clicks_on_search_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1160156,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Contacts with name starting with \"Madupu\" should display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Madupu",
+                  "offset": 34
+                }
+              ],
+              "location": "ContactsPageTest.contacts_with_name_starting_with_something_should_display(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Functionality of Contacts Page",
+    "description": "",
+    "id": "verify-the-functionality-of-contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ContactsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-31T12:17:09.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4267611924,
               "status": "passed"
             },
             "match": {
@@ -22,7 +430,7 @@
         "after": [
           {
             "result": {
-              "duration": 5865264570,
+              "duration": 5913381951,
               "status": "passed"
             },
             "match": {
@@ -35,7 +443,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7776502485,
+              "duration": 7141480813,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +455,7 @@
           },
           {
             "result": {
-              "duration": 5549239854,
+              "duration": 5657224213,
               "status": "passed"
             },
             "line": 5,
@@ -69,7 +477,7 @@
           },
           {
             "result": {
-              "duration": 3232368592,
+              "duration": 3206004160,
               "status": "passed"
             },
             "line": 6,
@@ -81,7 +489,7 @@
           },
           {
             "result": {
-              "duration": 3375098,
+              "duration": 1648687,
               "status": "passed"
             },
             "line": 7,
@@ -94,11 +502,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-29T10:00:17.279Z",
+        "start_timestamp": "2020-10-31T12:17:35.811Z",
         "before": [
           {
             "result": {
-              "duration": 4219399445,
+              "duration": 4718750282,
               "status": "passed"
             },
             "match": {
@@ -113,7 +521,7 @@
         "after": [
           {
             "result": {
-              "duration": 6178307081,
+              "duration": 6217902128,
               "status": "passed"
             },
             "match": {
@@ -126,7 +534,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8052304374,
+              "duration": 8182450435,
               "status": "passed"
             },
             "line": 10,
@@ -138,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 5517466061,
+              "duration": 5464324568,
               "status": "passed"
             },
             "line": 11,
@@ -160,7 +568,7 @@
           },
           {
             "result": {
-              "duration": 196400251,
+              "duration": 196326746,
               "status": "passed"
             },
             "line": 12,
@@ -172,7 +580,7 @@
           },
           {
             "result": {
-              "duration": 1193867,
+              "duration": 1098167,
               "status": "passed"
             },
             "line": 13,
@@ -196,11 +604,11 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2020-10-29T10:00:41.456Z",
+        "start_timestamp": "2020-10-31T12:18:00.603Z",
         "before": [
           {
             "result": {
-              "duration": 4452177350,
+              "duration": 4536242373,
               "status": "passed"
             },
             "match": {
@@ -215,7 +623,7 @@
         "after": [
           {
             "result": {
-              "duration": 6165492710,
+              "duration": 5864144263,
               "status": "passed"
             },
             "match": {
@@ -228,7 +636,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10241991788,
+              "duration": 5165743112,
               "status": "passed"
             },
             "line": 7,
@@ -240,7 +648,7 @@
           },
           {
             "result": {
-              "duration": 5532050706,
+              "duration": 3443278769,
               "status": "passed"
             },
             "line": 8,
@@ -262,7 +670,7 @@
           },
           {
             "result": {
-              "duration": 2349144,
+              "duration": 1980395,
               "status": "passed"
             },
             "line": 9,
@@ -275,11 +683,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-29T10:01:07.866Z",
+        "start_timestamp": "2020-10-31T12:18:19.627Z",
         "before": [
           {
             "result": {
-              "duration": 4670927723,
+              "duration": 4647547209,
               "status": "passed"
             },
             "match": {
@@ -294,7 +702,7 @@
         "after": [
           {
             "result": {
-              "duration": 5825688762,
+              "duration": 5903081353,
               "status": "passed"
             },
             "match": {
@@ -307,7 +715,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7863088266,
+              "duration": 7985165513,
               "status": "passed"
             },
             "line": 12,
@@ -319,7 +727,7 @@
           },
           {
             "result": {
-              "duration": 4373283558,
+              "duration": 2744779911,
               "status": "passed"
             },
             "line": 13,
@@ -331,7 +739,7 @@
           },
           {
             "result": {
-              "duration": 722151,
+              "duration": 516446,
               "status": "passed"
             },
             "line": 14,

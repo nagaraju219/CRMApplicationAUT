@@ -1,5 +1,6 @@
-stepDefinations\BeforeActions.class
-runnerClass\TestRunner.class
-stepDefinations\LoginPageTest.class
-stepDefinations\AfterActions.class
-stepDefinations\HomePageTest.class
+stepdefinations\HomePageTest.class
+stepdefinations\BeforeActions.class
+stepdefinations\LoginPageTest.class
+runner\TestRunner.class
+stepdefinations\AfterActions.class
+stepdefinations\ContactsPageTest.class

@@ -1,6 +1,9 @@
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\locators\HomePageLocators.java
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\locators\LoginPageLocators.java
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\util\TestUtil.java
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\pages\LoginPage.java
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\pages\HomePage.java
-C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\base\TestBase.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\pages\HomePage.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\locators\LoginPageLocators.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\locators\ContactsPageLocators.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\locators\HomePageLocators.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\base\TestBase.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\utils\TestUtil.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\pages\LoginPage.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\pages\ContactsPage.java
+C:\Users\lenovo\workspace\CRMApplicationAUT\src\main\java\com\crm\utils\ExtentManager.java

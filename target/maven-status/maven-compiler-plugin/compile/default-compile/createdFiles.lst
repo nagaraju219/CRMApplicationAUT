@@ -1,6 +1,10 @@
-base\TestBase.class
-locators\LoginPageLocators.class
-pages\LoginPage.class
-pages\HomePage.class
-locators\HomePageLocators.class
-util\TestUtil.class
+com\crm\utils\ExtentManager$1.class
+com\crm\locators\ContactsPageLocators.class
+com\crm\base\TestBase.class
+com\crm\locators\LoginPageLocators.class
+com\crm\pages\LoginPage.class
+com\crm\utils\TestUtil.class
+com\crm\pages\ContactsPage.class
+com\crm\utils\ExtentManager.class
+com\crm\pages\HomePage.class
+com\crm\locators\HomePageLocators.class

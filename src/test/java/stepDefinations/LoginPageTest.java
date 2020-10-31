@@ -1,13 +1,11 @@
-package stepDefinations;
+package stepdefinations;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.SessionId;
+import com.crm.base.TestBase;
+import com.crm.pages.LoginPage;
 
-import base.TestBase;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.LoginPage;
 
 public class LoginPageTest {
 
@@ -23,16 +21,13 @@ public class LoginPageTest {
 		loginPage.clickonPassword(passWord);
 		loginPage.clickOnLoginBtn();
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 
 		}
     }
-
-
-
 	@When("^User click on ForgetPasswork Link$")
 	public void user_click_on_forgetpasswork_link() {
 		loginPage.clickonForgetPasswordLink();
