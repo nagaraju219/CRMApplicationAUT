@@ -1,13 +1,17 @@
 package com.crm.pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import com.crm.base.TestBase;
 import com.crm.locators.ContactsPageLocators;
+import com.crm.utils.LoggingManager;
 
 public class ContactsPage {
+	public static Logger log;
 	private static WebDriver driver;
 	ContactsPageLocators contactsPageLocators = new ContactsPageLocators();
 	
@@ -15,10 +19,12 @@ public class ContactsPage {
 	{
 		driver = TestBase.getDriver();
 		PageFactory.initElements(driver,contactsPageLocators);
+		LoggingManager.log = LoggingManager.LoggingManager(ContactsPage.class.getName());
 	}
 	
 	public void clickoncreateNewContact()
 	{
+		LoggingManager.log.info("The click on new contact has been done successfully");
 		contactsPageLocators.NewContact.click();
 	}
 	
@@ -27,20 +33,24 @@ public class ContactsPage {
 		contactsPageLocators.FirstName.sendKeys(firstName);
 		contactsPageLocators.LastName.sendKeys(lastName);
 		contactsPageLocators.Email.sendKeys(eMail);
+		LoggingManager.log.info("New contact details are entered"+firstName+" "+lastName+" "+eMail);
 	}
 	public void clickonSaveButton()
 	{
 		contactsPageLocators.SaveBtn.click();
+		LoggingManager.log.info("Contact details are entered on clicked on SaveButton");
 	}
 	
 	public void selectContactList()
 	{
 		contactsPageLocators.SelectContactsList.click();
+		LoggingManager.log.info("Contact list has been selected");
 	}
 	
 	public void clickonDropDown()
 	{
 		contactsPageLocators.DropDownSelect.click();
+		LoggingManager.log.info("DropDown has been selected");
 		
 		
 	}
@@ -48,10 +58,12 @@ public class ContactsPage {
 	{
 		contactsPageLocators.DropDownSelect.sendKeys(Keys.ENTER);
 		contactsPageLocators.DeleteClick.click();
+		LoggingManager.log.info("Delete option has been selected from the dropdown");
 	}
 	public void deleteContacts()
 	{
 		contactsPageLocators.DeleteButton.click();
+		LoggingManager.log.info("Contacts on the firstrow deleted successfully");
 	}
 	
 	public void clickonSearchFilter()
@@ -83,5 +95,6 @@ public class ContactsPage {
 	{
 		contactsPageLocators.SearchButton.click();
 	}
+	
 
 }

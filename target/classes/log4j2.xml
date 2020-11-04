@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
-       <Properties>
+<Configuration status="warn">
+<Properties>
 <Property name="basePath">./logs</Property>
+<Property name="LOG_HOME" value="PROCESSLOG"></Property>
 </Properties>
- 
+<timestamp key="bySecond" value="yyyyMMddHHmmss"></timestamp>
   <Appenders>
-      <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
-     <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-      <SizeBasedTriggeringPolicy size="500" />
-          </RollingFile>
-    <Console name="Console" target="SYSTEM_OUT">
+    <File name="MyFile" fileName="${basePath}/${LOG_HOME}-${date:yyyy-MM-dd'_'HH-mm-ss}.log">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </File>
+     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
   </Appenders>
   <Loggers>
     <Root level="trace">
-      <AppenderRef ref="File"/>
+      <AppenderRef ref="MyFile"/>
     </Root>
   </Loggers>
 </Configuration>

@@ -1,5 +1,8 @@
 package stepdefinations;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.crm.base.TestBase;
 import com.crm.pages.LoginPage;
 
@@ -8,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginPageTest {
-
+	public static Logger log =LogManager.getLogger(LoginPageTest.class.getName());
 	LoginPage loginPage = new LoginPage();
 
 	@Given("^user login in to the CRM  website$")

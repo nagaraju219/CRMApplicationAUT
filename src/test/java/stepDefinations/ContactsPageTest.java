@@ -5,6 +5,10 @@ import com.crm.pages.ContactsPage;
 import com.crm.pages.HomePage;
 import com.crm.pages.LoginPage;
 import java.util.*;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -15,7 +19,7 @@ public class ContactsPageTest {
 	public static LoginPage loginPage;
 	public static HomePage homePage;
 	public static ContactsPage contactsPage;
-
+	public static Logger log =LogManager.getLogger(ContactsPageTest.class.getName());
 	@Given("^user logged in to the CRM website$")
 	public void user_logged_in_to_the_crm_website() {
 		loginPage = new LoginPage();
@@ -84,6 +88,7 @@ public class ContactsPageTest {
 	public void user_clicks_on_selectall_contacts_radiobutton() throws InterruptedException {
 		Thread.sleep(3000);
 		contactsPage.selectContactList();
+		
 	}
 
 	@And("^User clicks on dropdown$")

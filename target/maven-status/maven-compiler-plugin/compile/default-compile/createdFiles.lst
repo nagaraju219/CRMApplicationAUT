@@ -1,4 +1,5 @@
 com\crm\utils\ExtentManager$1.class
+com\crm\utils\LoggingManager.class
 com\crm\locators\ContactsPageLocators.class
 com\crm\base\TestBase.class
 com\crm\locators\LoginPageLocators.class

@@ -1,0 +1,64 @@
+16:04:07.473 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:04:07.557 [main] INFO  com.crm.base.TestBase - Chrome Driver is set
+16:04:12.956 [main] INFO  com.crm.pages.ContactsPage - The URl https://ui.cogmento.com/ has been opened on browser
+16:04:12.960 [main] INFO  com.crm.pages.ContactsPage - Username has ben entered successfully
+16:04:13.123 [main] INFO  com.crm.pages.ContactsPage - Password has ben entered successfully
+16:04:13.249 [main] INFO  com.crm.pages.ContactsPage - Login Button has been clicked successfully
+16:04:16.346 [main] INFO  com.crm.pages.ContactsPage - Username has been selected
+16:04:16.413 [main] INFO  com.crm.pages.ContactsPage - Contact Links has been clicked Successfully
+16:04:22.807 [main] INFO  com.crm.pages.ContactsPage - Contact list has been selected
+16:04:22.965 [main] INFO  com.crm.pages.ContactsPage - DropDown has been selected
+16:04:23.218 [main] INFO  com.crm.pages.ContactsPage - Delete option has been selected from the dropdown
+16:04:23.315 [main] INFO  com.crm.pages.ContactsPage - Contacts on the firstrow deleted successfully
+16:04:23.708 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:04:24.542 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:04:31.389 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:04:38.811 [main] INFO  com.crm.pages.ContactsPage - The URl https://ui.cogmento.com/ has been opened on browser
+16:04:38.812 [main] INFO  com.crm.pages.ContactsPage - Username has ben entered successfully
+16:04:39.028 [main] INFO  com.crm.pages.ContactsPage - Password has ben entered successfully
+16:04:39.143 [main] INFO  com.crm.pages.ContactsPage - Login Button has been clicked successfully
+16:04:42.244 [main] INFO  com.crm.pages.ContactsPage - Username has been selected
+16:04:42.302 [main] INFO  com.crm.pages.ContactsPage - Contact Links has been clicked Successfully
+16:04:45.432 [main] INFO  com.crm.pages.ContactsPage - The click on new contact has been done successfully
+16:04:47.848 [main] INFO  com.crm.pages.ContactsPage - New contact details are enteredNagaraju Madupu nagarajumadupu@gmail.com
+16:04:47.960 [main] INFO  com.crm.pages.ContactsPage - Contact details are entered on clicked on SaveButton
+16:04:48.038 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:04:48.901 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:04:55.357 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:05:02.385 [main] INFO  com.crm.pages.ContactsPage - The URl https://ui.cogmento.com/ has been opened on browser
+16:05:02.386 [main] INFO  com.crm.pages.ContactsPage - Username has ben entered successfully
+16:05:02.566 [main] INFO  com.crm.pages.ContactsPage - Password has ben entered successfully
+16:05:02.676 [main] INFO  com.crm.pages.ContactsPage - Login Button has been clicked successfully
+16:05:05.788 [main] INFO  com.crm.pages.ContactsPage - Username has been selected
+16:05:06.085 [main] INFO  com.crm.pages.ContactsPage - Contact Links has been clicked Successfully
+16:05:13.434 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:05:14.293 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:05:20.845 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:05:28.478 [main] INFO  com.crm.pages.HomePage - The URl https://ui.cogmento.com/ has been opened on browser
+16:05:28.479 [main] INFO  com.crm.pages.HomePage - Username has ben entered successfully
+16:05:28.675 [main] INFO  com.crm.pages.HomePage - Password has ben entered successfully
+16:05:28.785 [main] INFO  com.crm.pages.HomePage - Login Button has been clicked successfully
+16:05:33.892 [main] INFO  com.crm.pages.HomePage - Username has been selected
+16:05:33.922 [main] INFO  com.crm.pages.HomePage - Contact Links has been clicked Successfully
+16:05:37.142 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:05:37.974 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:05:44.561 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:05:51.389 [main] INFO  com.crm.pages.HomePage - The URl https://ui.cogmento.com/ has been opened on browser
+16:05:51.391 [main] INFO  com.crm.pages.HomePage - Username has ben entered successfully
+16:05:51.624 [main] INFO  com.crm.pages.HomePage - Password has ben entered successfully
+16:05:51.741 [main] INFO  com.crm.pages.HomePage - Login Button has been clicked successfully
+16:05:56.848 [main] INFO  com.crm.pages.HomePage - Task Links has been clicked
+16:05:57.078 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:05:57.972 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:06:04.575 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:06:17.228 [main] INFO  com.crm.pages.LoginPage - The URl https://ui.cogmento.com/ has been opened on browser
+16:06:17.229 [main] INFO  com.crm.pages.LoginPage - Username has ben entered successfully
+16:06:17.377 [main] INFO  com.crm.pages.LoginPage - Password has ben entered successfully
+16:06:17.498 [main] INFO  com.crm.pages.LoginPage - Login Button has been clicked successfully
+16:06:20.665 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:06:21.506 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
+16:06:27.866 [main] INFO  com.crm.base.TestBase - Driver has been initialized
+16:06:35.996 [main] INFO  com.crm.pages.LoginPage - The URl https://ui.cogmento.com/ has been opened on browser
+16:06:36.001 [main] INFO  com.crm.pages.LoginPage - Password link has been clicked successfully
+16:06:40.073 [main] INFO  stepdefinations.AfterActions - Driver has been closed
+16:06:41.107 [main] INFO  stepdefinations.AfterActions - Driver instance has been closed
