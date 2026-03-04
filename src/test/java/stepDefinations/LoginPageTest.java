@@ -22,17 +22,21 @@ public class LoginPageTest  {
 		
     }
    
-    @When("^User enter the Username as \"([^\"]*)\" as Password as \"([^\"]*)\"$")
-    public void user_enter_the_username_as_something_as_password_as_something(String userName, String passWord)  {
-    	loginPage.clickOnUsername(userName);
-    	loginPage.clickonPassword(passWord);
-    	loginPage.clickOnLoginBtn();
-    	try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    @When("^user enters login credentials$")
+    public void user_enters_login_credentials()  {
+        String userName = System.getenv("CRM_USERNAME");
+        String passWord = System.getenv("CRM_PASSWORD");
+        if (userName == null || passWord == null) {
+            throw new RuntimeException("CRM_USERNAME or CRM_PASSWORD environment variable not set");
+        }
+        loginPage.clickOnUsername(userName);
+        loginPage.clickonPassword(passWord);
+        loginPage.clickOnLoginBtn();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Then("^user should be able to enter HomePage$")
